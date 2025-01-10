@@ -1,0 +1,87 @@
+h1 {
+    font-family: "Abel", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .carousel-item img{
+    height: 88vh;
+    width: 100%;
+  }
+
+  /* Footer styling */
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+footer .footer-container .column {
+    flex: 1;
+    margin: 10px;
+}
+
+footer .footer-container .column h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+footer .footer-container .column a {
+    color: white;
+    text-decoration: none;
+    margin: 5px 0;
+    display: block;
+}
+
+footer .footer-container .social-icons a {
+    font-size: 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+
+footer .footer-container .social-icons a:hover {
+    color: #4CAF50;
+}
+
+footer .footer-container .column p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+footer .footer-container .column .contact-info a {
+    color: #ccc;
+}
+
+footer .footer-container .column .contact-info a:hover {
+    color: white;
+}
+
+footer .footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    footer .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer .footer-container .column {
+        flex: none;
+        margin: 10px 0;
+    }
+}
